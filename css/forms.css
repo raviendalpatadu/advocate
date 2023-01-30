@@ -1,0 +1,95 @@
+.get-in-touch{
+	max-width: 800px;
+	margin:50px auto;
+	position: relative;
+	box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+	padding: 30px;
+}
+.get-in-touch .title{
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 3em;
+	line-height: 48px;
+	padding-bottom: 20px;
+	color: #5543ca;
+	/*background:linear-gradient(to right, #f4524d 0%,#5543ca 100%);*/
+	background-color: #17a2b8;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+.contact-form .form-field{
+	position:relative;
+	margin: 32px 0;
+}
+
+.contact-form .input-text{
+	display: block;
+	width: 100%;
+	height: 36px;
+	border-width: 0 0 2px 0;
+	border-color: #17a2b8;/*#5543ca*/
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	padding-left: 35px;
+}
+
+/* .contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+	transform: translateY(-24px);
+} */
+.contact-form .input-text:focus{
+	outline: none;
+}
+
+.contact-form .label{
+	position:absolute;
+	left: 20px;
+	bottom: 22px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #17a2b8;/*#5543ca*/
+	cursor: text;
+	/* text-transform: uppercase; */
+	/* transition: transform 0.2s ease-in-out; */
+}
+
+.contact-form .Submit-btn{
+	display: inline-block;
+	/*background-image: linear-gradient(125deg, #a72879, #064497);*/
+	background-color: #17a2b8;
+	color: #fff;
+	/* text-transform: uppercase; */
+	letter-spacing: 2px;
+	font-size: 16px;
+	padding: 8px 16px;
+	border: none;
+	width: 200px;
+	cursor: pointer;
+}
+
+#id{
+	position: absolute;
+}
+#div{
+	display: none;
+}
+.contact-form i{
+	position: absolute;
+	top: 10px;
+	left: 21px;
+	color: rgb(194, 194, 194);
+}
+.contact-form span .pass{
+	position: absolute;
+	top: 10px;
+	left: 300px;
+	color: rgb(194, 194, 194);
+}
+
+.form-floating{
+	margin-bottom: 20px;
+}
+
